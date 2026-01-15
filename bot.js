@@ -103,7 +103,7 @@ bot.start(async (ctx) => {
   const caption = `
 \`\`\`
 ☰ 🐉 -@${username} I am a multi-purpose telegram bot script that can be used by anyone, 
-and my script developer is RannTzyBack2,
+and my script developer is DOTZ STORE,
 ──────────────────────────
 ┏─────────────────────┓
 │ 𝖣𝖾𝗏𝗈𝗅𝗈𝗉𝖾𝗋 : @dotzbaik80
@@ -119,7 +119,7 @@ and my script developer is RannTzyBack2,
 
   // kirim foto + caption
   await ctx.replyWithPhoto(
-    { url: "https://files.catbox.moe/f98nr8.jpg" }, // ganti logo jika perlu
+    { url: "https://files.catbox.moe/kyyt36.jpg" }, // ganti logo jika perlu
     {
       caption,
       parse_mode: "Markdown",
@@ -213,7 +213,7 @@ bot.action("back_home", async (ctx) => {
   const caption = `
 \`\`\`
 ☰ 🐉 -@${username} I am a multi-purpose telegram bot script that can be used by anyone, 
-and my script developer is RannTzyBack2,
+and my script developer is DOTZ STORE,
 ──────────────────────────
 ┏─────────────────────┓
 │ 𝖣𝖾𝗏𝗈𝗅𝗈𝗉𝖾𝗋 : @dotzbaik80
@@ -858,7 +858,7 @@ TRANSAKSI DONE ✅
 🏦 PAYMENT  : ${pay}
 📅 DATE     : ${waktu}
 
-𝗧𝗘𝗥𝗜𝗠𝗔 𝗞𝗔𝗦𝗜𝗛 𝗧𝗘𝗟𝗔𝗛 𝗠𝗘𝗠𝗣𝗘𝗥𝗖𝗔𝗬𝗔𝗜 𝗧𝗭𝗬 dotz storedo 𝗦𝗘𝗠𝗢𝗚𝗔 𝗝𝗔𝗗𝗜 𝗕𝗨𝗬𝗔𝗥 𝗟𝗔𝗡𝗚𝗚𝗔𝗡𝗔𝗡 ⚡
+𝗧𝗘𝗥𝗜𝗠𝗔 𝗞𝗔𝗦𝗜𝗛 𝗧𝗘𝗟𝗔𝗛 𝗠𝗘𝗠𝗣𝗘𝗥𝗖𝗔𝗬𝗔𝗜 𝗧𝗭𝗬 dotz store 𝗦𝗘𝗠𝗢𝗚𝗔 𝗝𝗔𝗗𝗜 𝗕𝗨𝗬𝗔𝗥 𝗟𝗔𝗡𝗚𝗚𝗔𝗡𝗔𝗡 ⚡
 \`\`\``;
 
   const keyboard = {
