@@ -1540,7 +1540,7 @@ bot.command("addtrx", async (ctx) => {
 `;
 
   await ctx.replyWithPhoto(
-    { url: "https://files.catbox.moe/f98nr8.jpg" },
+    { url: "https://files.catbox.moe/kyyt36.jpg" },
     { caption, parse_mode: "Markdown" }
   );
 });
