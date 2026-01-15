@@ -141,7 +141,7 @@ and my script developer is DOTZ STORE,
 bot.action("menu_bot", async (ctx) => {
   await ctx.deleteMessage();
   await ctx.replyWithPhoto(
-    { url: "https://files.catbox.moe/f98nr8.jpg" },
+    { url: "https://files.catbox.moe/kyyt36.jpg" },
     {
       caption: `
 \`\`\`
@@ -1580,7 +1580,7 @@ bot.command("deltrx", async (ctx) => {
 
   await fs.writeJSON(TRX_FILE, data, { spaces: 2 });
   await ctx.replyWithPhoto(
-    { url: "https://files.catbox.moe/f98nr8.jpg" },
+    { url: "https://files.catbox.moe/kyyt36.jpg" },
     {
       caption: `\`\`\`\n🗑️ TRANSAKSI '${nama}' BERHASIL DIHAPUS!\n\`\`\``,
       parse_mode: "Markdown"
