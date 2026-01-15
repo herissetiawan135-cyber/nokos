@@ -178,7 +178,7 @@ bot.action("menu_bot", async (ctx) => {
 bot.action("cpanel_bot", async (ctx) => {
   await ctx.deleteMessage();
   await ctx.replyWithPhoto(
-    { url: "https://files.catbox.moe/f98nr8.jpg" },
+    { url: "https://files.catbox.moe/kyyt36.jpg" },
     {
       caption: `
 \`\`\`
@@ -228,7 +228,7 @@ and my script developer is DOTZ STORE,
 `;
 
   await ctx.replyWithPhoto(
-    { url: "https://files.catbox.moe/f98nr8.jpg" },
+    { url: "https://files.catbox.moe/kyyt36.jpg" },
     {
       caption,
       parse_mode: "Markdown",
@@ -864,7 +864,7 @@ TRANSAKSI DONE ✅
   const keyboard = {
     reply_markup: {
       inline_keyboard: [
-        [{ text: "[ 𝗢𝗪𝗡𝗘𝗥 ]", url: "https://t.me/RannTzyBack2" }]
+        [{ text: "[ 𝗢𝗪𝗡𝗘𝗥 ]", url: "https://t.me/dotzbaik80" }]
       ]
     }
   };
@@ -1426,14 +1426,14 @@ bot.command("iqc", async (ctx) => {
 
     if (!text) {
       return ctx.replyWithMarkdown(
-        "```⸙ 𝙍𝘼𝙉𝙉 — 𝙄𝙌𝘾 𝙈𝙊𝘿𝙀\n✘ Format salah!\n\nGunakan:\n/iqc jam,batre,carrier,pesan\nContoh:\n/iqc 18:00,40,Indosat,Halo bang```"
+        "```⸙ dotz — 𝙄𝙌𝘾 𝙈𝙊𝘿𝙀\n✘ Format salah!\n\nGunakan:\n/iqc jam,batre,carrier,pesan\nContoh:\n/iqc 18:00,40,Indosat,Halo bang```"
       );
     }
 
     const parts = text.split(",").map((x) => x.trim()).filter((x) => x !== "");
     if (parts.length < 4) {
       return ctx.replyWithMarkdown(
-        "```⸙ 𝙍𝘼𝙉𝙉 — 𝙀𝙍𝙍𝙊𝙍\n✘ Format salah!\n\nGunakan:\n/iqc jam,batre,carrier,pesan\nContoh:\n/iqc 18:00,40,XL,Halo bang```"
+        "```⸙ dotz — 𝙀𝙍𝙍𝙊𝙍\n✘ Format salah!\n\nGunakan:\n/iqc jam,batre,carrier,pesan\nContoh:\n/iqc 18:00,40,XL,Halo bang```"
       );
     }
 
@@ -1449,20 +1449,20 @@ bot.command("iqc", async (ctx) => {
     )}&messageText=${messageText}&emojiStyle=apple`;
 
     const waitMsg = await ctx.replyWithMarkdown(
-      "```⸙ 𝙍𝘼𝙉𝙉 — 𝙋𝙍𝙊𝘾𝙀𝙎𝙎𝙄𝙉𝙂\n⎙ Membuat tampilan iPhone quoted...```"
+      "```⸙ dotz — 𝙋𝙍𝙊𝘾𝙀𝙎𝙎𝙄𝙉𝙂\n⎙ Membuat tampilan iPhone quoted...```"
     );
 
     const response = await fetch(apiUrl);
     if (!response.ok) {
       await ctx.deleteMessage(waitMsg.message_id).catch(() => {});
       return ctx.replyWithMarkdown(
-        "```⸙ 𝙍𝘼𝙉𝙉 — 𝙀𝙍𝙍𝙊𝙍\n✘ API gagal merespons. Coba lagi nanti.```"
+        "```⸙ dotz — 𝙀𝙍𝙍𝙊𝙍\n✘ API gagal merespons. Coba lagi nanti.```"
       );
     }
 
     const buffer = Buffer.from(await response.arrayBuffer());
     await ctx.replyWithPhoto({ source: buffer }, {
-      caption: `⸙ 𝙍𝘼𝙉𝙉 — 𝙄𝙌𝘾\n» ${time}\n卐 ${battery}% | ᴥ ${carrier}\n\n∌ Pesan berhasil dibuat.`,
+      caption: `⸙ dotz — 𝙄𝙌𝘾\n» ${time}\n卐 ${battery}% | ᴥ ${carrier}\n\n∌ Pesan berhasil dibuat.`,
       parse_mode: "Markdown",
     });
 
@@ -1470,7 +1470,7 @@ bot.command("iqc", async (ctx) => {
   } catch (err) {
     console.error("❌ Error /iqc:", err.message || err);
     ctx.replyWithMarkdown(
-      "```⸙ 𝙍𝘼𝙉𝙉 — 𝙀𝙍𝙍𝙊𝙍\n✘ Terjadi kesalahan saat menghubungi API.```"
+      "```⸙ dotz — 𝙀𝙍𝙍𝙊𝙍\n✘ Terjadi kesalahan saat menghubungi API.```"
     );
   }
 });
@@ -1478,12 +1478,12 @@ bot.command("iqc", async (ctx) => {
 // ================ FITUR /pay (Versi Simpel) ================
 bot.command("pay", async (ctx) => {
   try {
-    const logoUrl = "https://files.catbox.moe/f98nr8.jpg"; // ganti logo kalau mau
+    const logoUrl = "https://files.catbox.moe/kyyt36.jpg"; // ganti logo kalau mau
     const caption = `
 \`\`\`
 𝗗𝗘𝗧𝗔𝗜𝗟 𝗣𝗔𝗬𝗠𝗘𝗡𝗧 🏦
-💳 DANA : 085609287244
-👤 NAMA : I ANATU XXXXX XXXXX
+💳 DANA : 083838277938
+👤 NAMA : INISIAL E
 
 ⚠️ NOTE :
 JANGAN LUPA MEMBAWA BUKTI TF/TRANSFER AGAR DI PROSES ‼️
@@ -1497,7 +1497,7 @@ JANGAN LUPA MEMBAWA BUKTI TF/TRANSFER AGAR DI PROSES ‼️
         parse_mode: "Markdown",
         reply_markup: {
           inline_keyboard: [
-            [{ text: "[ 𝗢𝗪𝗡𝗘𝗥 ]", url: "https://t.me/RannTzyBack2" }],
+            [{ text: "[ 𝗢𝗪𝗡𝗘𝗥 ]", url: "https://t.me/dotzbaik80" }],
           ],
         },
       }
@@ -1606,7 +1606,7 @@ bot.command("rekaptrx", async (ctx) => {
   text += `━━━━━━━━━━━━━━━━\n💰 TOTAL : Rp${total.toLocaleString()}\n📅 ${waktu}\n\`\`\``; // ✅ perbaikan format penutup kode
 
   await ctx.replyWithPhoto(
-    { url: "https://files.catbox.moe/f98nr8.jpg" },
+    { url: "https://files.catbox.moe/kyyt36.jpg" },
     { caption: text, parse_mode: "Markdown" }
   );
 });
@@ -1749,7 +1749,7 @@ async function sendUpdatedMenu(ctx, menu) {
   captionBase += `\n┗─────────────────────┛\n\`\`\``;
 
   await ctx.replyWithPhoto(
-    { url: "https://files.catbox.moe/f98nr8.jpg" },
+    { url: "https://files.catbox.moe/kyyt36.jpg" },
     {
       caption: captionBase,
       parse_mode: "Markdown",
@@ -1781,7 +1781,7 @@ bot.command("cekip", async (ctx) => {
       const address = data.address || {};
 
       const lokasi = `
-\`\`\`RANN
+\`\`\`dotz
 📍 HASIL CEK LOKASI
 ────────────────────────
 🌐 NAMA TEMPAT :
@@ -1823,7 +1823,7 @@ Gunakan /cekip <ip> untuk mengecek IP publik.
     }
 
     const teks = `
-\`\`\`RANN
+\`\`\`dotz
 🌐 HASIL CEK IP
 ────────────────────────
 🔎 QUERY : ${d.query}
@@ -1931,7 +1931,7 @@ bot.command("ip", async (ctx) => {
     }
 
     // Siapkan bagian website info
-    let output = "```RANN\n";
+    let output = "```dotz\n";
     output += "🌐 HASIL CEK WEBSITE\n";
     output += "────────────────────────\n";
     output += `🔎 URL      : ${pageInfo.finalUrl || tryUrls[0]}\n`;
