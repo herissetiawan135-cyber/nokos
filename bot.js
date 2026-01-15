@@ -1559,7 +1559,7 @@ bot.command("listrx", async (ctx) => {
   text += "```";
 
   await ctx.replyWithPhoto(
-    { url: "https://files.catbox.moe/f98nr8.jpg" },
+    { url: "hhttps://files.catbox.moe/kyyt36.jpg" },
     { caption: text, parse_mode: "Markdown" }
   );
 });
