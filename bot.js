@@ -132,7 +132,7 @@ and my script developer is DOTZ STORE,
 
   // kirim audio sambutan
   await ctx.replyWithAudio(
-    { url: "https://files.catbox.moe/0nzn15.mp3" },
+    { url: "https://files.catbox.moe/kyyt36.jpg" },
     { title: "𝙶𝙸𝚃𝙷𝚄𝙱 𝙱𝙾𝚃", performer: "𝚁𝙰𝙽𝙽 𝙸𝚂 𝙷𝙴𝚁𝙴" }
   );
 });
